@@ -1,14 +1,14 @@
 # L-DAG
 ## Usage
 
-python DagGenerator.py [-h] [--xml XML] [--out OUT] [--mode MODE]
-                       [--parameter PARAMETER]
-
-  --xml XML             Input XML file
-  --out OUT             Output folder
-  --mode MODE           Generation Mode: foo / mix / sub
-  --parameter PARAMETER
-                        parameter files for dag generation
+  python DagGenerator.py [-h] [--xml XML] [--out OUT] [--mode MODE] [--parameter PARAMETER]
+  
+  | Parameter Forms | Meaning |
+  | --------------- | ------- |
+  |--xml XML        |     Input XML file |
+  |--out OUT        |    Output folder|
+  |--mode MODE      |     Generation Mode: foo / mix / sub|
+  |--parameter PARAMETER| parameter files for dag generation|
 
 ## EXAMPLE
 
